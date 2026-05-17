@@ -137,9 +137,13 @@ df["identified_theme"] = (
 final_df = df[[
     "review_id",
     "review",
+    "rating",
+    "date",
+    "bank",
     "sentiment_label",
     "sentiment_score",
-    "identified_theme"
+    "identified_theme",
+    "source"
 ]]
 
 # Save results
