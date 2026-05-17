@@ -1,11 +1,4 @@
-# Fintech Review Analytics
 
-## Project Overview
-
-This project collects and preprocesses Google Play Store reviews
-from Ethiopian banking applications for sentiment analysis and analytics.
-
----
 
 ## Scraping Methodology
 
@@ -49,3 +42,29 @@ Final dataset columns:
 
 The number of reviews available depends on Google Play Store availability.
 Some applications may provide fewer reviews than requested.
+
+
+
+
+## Database Setup (Task 3)
+
+A PostgreSQL database named `bank_reviews` was created.
+
+Tables:
+- banks
+- reviews
+
+Data insertion was performed using a Python script with psycopg2.
+
+Verification queries confirmed:
+- 1000+ records inserted
+- correct distribution across banks
+- no missing values in key columns
+# Fintech Review Analytics
+
+## Project Overview
+
+This project collects and preprocesses Google Play Store reviews
+from Ethiopian banking applications for sentiment analysis and analytics.
+
+---
