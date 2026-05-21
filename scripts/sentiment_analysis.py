@@ -144,7 +144,7 @@ final_df = df[[
     "sentiment_score",
     "identified_theme",
     "source"
-]]
+]] 
 
 # Save results
 output_path = "data/raw/sentiment_analysis_results.csv"
